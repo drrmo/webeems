@@ -4,31 +4,7 @@
   "private": true,
   "main": "dist/bin/www.js",
   "scripts": {
-    "start": "nodemon",
-    "build": "npm-run-all clean transpile",
-    "buildclient": "npm --prefix=client install && npm --prefix=client run build && rm -rf ./client/node_modules",
-    "buildall": "npm-run-all buildclient build",
-    "server": "node ./dist/bin/www",
-    "dev": "npm-run-all build server",
-    "prod": "NODE_ENV=production && npm-run-all build server",
-    "clean": "rimraf dist",
-    "transpile": "babel ./server --out-dir dist --copy-files",
-    "lint": "eslint ./server",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "windows": "set NODE_ENV=development && npm-run-all build server"
-  },
-  "nodemonConfig": {
-    "exec": "npm run dev",
-    "watch": [
-      "server/*",
-      "public/*"
-    ],
-    "ignore": [
-      "**/__tests__/**",
-      "*.test.js",
-      "*.spec.js"
-    ]
+    "server": "node ./dist/bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -42,25 +18,5 @@
     "moment-timezone": "^0.5.43",
     "mongoose": "^7.2.0",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "rimraf": "^3.0.2",
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
-    "@babel/plugin-transform-runtime": "^7.11.5",
-    "@babel/preset-env": "^7.9.0",
-    "babel-plugin-inline-dotenv": "^1.5.0",
-    "debug": "^4.3.4",
-    "eslint": "^7.9.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "https": "^1.0.0",
-    "jest": "^25.5.4",
-    "nodemon": "^2.0.3",
-    "npm-run-all": "^4.1.5",
-    "seedrandom": "^3.0.5",
-    "supertest": "^5.0.0",
-    "unique-names-generator": "^4.7.1"
   }
 }
