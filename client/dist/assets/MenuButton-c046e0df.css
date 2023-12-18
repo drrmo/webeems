@@ -1,0 +1,1 @@
+.highlight-hover{position:relative;border:1px solid red}.highlight-hover:after{content:" ";position:absolute;left:0;top:0;width:100%;height:100%;background-image:linear-gradient(#fff,#afa,#cccccc);opacity:0;transition:opacity ease-out .2s}.highlight-hover:hover:after{opacity:20%}.highlight-hover:active:after{opacity:50%}

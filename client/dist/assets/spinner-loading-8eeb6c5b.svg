@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+<path fill="#2a7ca0" d="M34.1 34.1c-1.6 1.6-4.1 1.6-5.7 0l-8.5-8.5c-1.6-1.6-1.6-4.1 0-5.7 1.6-1.6 4.1-1.6 5.7 0l8.5 8.5c1.6 1.6 1.6 4.1 0 5.7z">
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#268ad2" d="M27.5 50c0 2.2-1.8 4-4 4h-12c-2.2 0-4-1.8-4-4s1.8-4 4-4h12c2.2 0 4 1.8 4 4z" >
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#5899f0" d="M34.1 65.9c1.6 1.6 1.6 4.1 0 5.7l-8.5 8.5c-1.6 1.6-4.1 1.6-5.7 0-1.6-1.6-1.6-4.1 0-5.7l8.5-8.5c1.6-1.6 4.1-1.6 5.7 0z" >
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#809feb" d="M50 72.5c2.2 0 4 1.8 4 4v12c0 2.2-1.8 4-4 4s-4-1.8-4-4v-12c0-2.2 1.8-4 4-4z">
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#a0ffff" d="M65.9 65.9c1.6-1.6 4.1-1.6 5.7 0l8.5 8.5c1.6 1.6 1.6 4.1 0 5.7-1.6 1.6-4.1 1.6-5.7 0l-8.5-8.5c-1.6-1.6-1.6-4.1 0-5.7z">
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#b0bfff" d="M72.5 50c0-2.2 1.8-4 4-4h12c2.2 0 4 1.8 4 4s-1.8 4-4 4h-12c-2.2 0-4-1.8-4-4z">
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+<path fill="#e0deff" d="M65.9 34.1c-1.6-1.6-1.6-4.1 0-5.7l8.5-8.5c1.6-1.6 4.1-1.6 5.7 0 1.6 1.6 1.6 4.1 0 5.7l-8.5 8.5c-1.6 1.6-4.1 1.6-5.7 0z">
+    <animateTransform attributeName='transform' type='rotate' from='0 50 50' to='360 50 50' dur='1s' repeatCount='indefinite' />
+</path>
+</svg>
